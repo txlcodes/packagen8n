@@ -1,0 +1,22 @@
+{
+  "name": "n8n-nodes-peak-ai",
+  "version": "1.0.0",
+  "description": "Peak AI LinkedIn contact lookup",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Build complete - add TypeScript later'"
+  },
+  "keywords": ["n8n", "peak-ai"],
+  "author": "",
+  "license": "ISC",
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "PeakAi.node.js"
+    ]
+  },
+  "devDependencies": {
+    "n8n-workflow": "^1.113.0",
+    "typescript": "^5.9.3"
+  }
+}
